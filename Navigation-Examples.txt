@@ -1,0 +1,154 @@
+MOVING
+Forward/Backward: e, j, y, k
+
+Example: Forward one line: e, Backward one line: y
+
+Next/Previous Line: ^E, ^N, ^Y, ^K
+
+Example: Forward one line: ^E, Backward one line: ^Y
+
+Window Navigation: f, b, ^F, ^B
+
+Example: Forward one window: f, Backward one window: b
+
+Half-Window Navigation: d, u, ^D, ^U
+
+Example: Forward one half-window: d, Backward one half-window: u
+
+Screen Width Navigation: RightArrow, LeftArrow
+
+Example: Right one half screen width: RightArrow, Left one half screen width: LeftArrow
+
+Forever Forward: F
+
+Example: Forward forever (like "tail -f"): F
+
+Repaint Screen: r, ^R
+
+Example: Repaint screen: r
+
+SEARCHING
+Forward/Backward: /pattern, ?pattern
+
+Example: Search forward for "hello": /hello, Search backward for "world": ?world
+
+Repeat: n, N
+
+Example: Repeat previous search: n, Repeat previous search in reverse direction: N
+
+Undo Search Highlighting: ESC-u
+
+Example: Undo (toggle) search highlighting: ESC-u
+
+Display Only Matching Lines: &pattern
+
+Example: Display only lines containing "error": &error
+
+JUMPING
+Go to First/Last Line: g, G
+
+Example: Go to first line in file: g, Go to last line in file: G
+
+Go to Beginning/End: p, %
+
+Example: Go to beginning of file: p, Go to 50% into file: 50%
+
+Go to Next/Previous Tag: t, T
+
+Example: Go to next tag: t, Go to previous tag: T
+
+Find Close/Open Bracket: {, }, (, )
+
+Example: Find close bracket: }, Find open bracket: {
+
+Mark Position: m<letter>, M<letter>
+
+Example: Mark current top line with 'a': ma, Mark current bottom line with 'b': Mb
+
+Go to Marked Position: '<letter>, ''
+
+Example: Go to previously marked position: 'a, Go to previous position: ''
+
+CHANGING FILES
+Examine New File: :e [file]
+
+Example: Examine a new file: :e new_file.txt
+
+Navigate Files: :n, :p, :x
+
+Example: Examine the next file from the command line: :n, Examine the previous file from the command line: :p
+
+Delete File: :d
+
+Example: Delete the current file from the command line list: :d
+
+Print File Name: =
+
+Example: Print the current file name: =
+
+MISCELLANEOUS COMMANDS
+Toggle Options: -<flag>, --<name>
+
+Example: Toggle quiet mode: -q, Toggle ignore case in searches: --ignore-case
+
+Execute Shell Command: !command
+
+Example: Execute shell command: !ls -l
+
+Pipe to Shell Command: |Xcommand
+
+Example: Pipe file between current position & mark 'X' to shell command: |Xcommand
+
+Save to File: s file
+
+Example: Save input to a file: s output.txt
+
+Edit/Version: v, V
+
+Example: Edit the current file with default editor: v, Print version number of "less": V
+
+OPTIONS
+Help/Version: --help, --version
+
+Example: Display help: --help, Display version: --version
+
+Quiet/Verbose: -q, -Q
+
+Example: Quiet the terminal bell: -q, Be verbose: -Q
+
+Color Scheme: -D [xn.n]
+
+Example: Set screen colors: -D 5.4
+
+Window Size: -z [N]
+
+Example: Set size of window: -z 25
+
+LINE EDITING
+Move Cursor: RightArrow, LeftArrow
+
+Example: Move cursor right: RightArrow, Move cursor left: LeftArrow
+
+Move by Word: ^RightArrow, ^LeftArrow
+
+Example: Move cursor right one word: ^RightArrow, Move cursor left one word: ^LeftArrow
+
+Move to Start/End: HOME, END
+
+Example: Move cursor to start of line: HOME, Move cursor to end of line: END
+
+Delete Character/Word: DELETE, BACKSPACE, ctrl-DELETE, ctrl-BACKSPACE
+
+Example: Delete character under cursor: DELETE, Delete character to left of cursor: BACKSPACE
+
+Retrieve Previous Command: UpArrow
+
+Example: Retrieve previous command line: UpArrow
+
+Retrieve Next Command: DownArrow
+
+Example: Retrieve next command line: DownArrow
+
+Complete Filename: TAB
+
+Example: Complete filename & cycle: TAB
