@@ -1,0 +1,67 @@
+Vi (Vim):
+Navigation:
+h, j, k, l: Move left, down, up, right respectively.
+w: Move forward to the beginning of the next word.
+b: Move backward to the beginning of the previous word.
+e: Move forward to the end of the current word.
+0: Move to the beginning of the line.
+^: Move to the first non-blank character of the line.
+$: Move to the end of the line.
+H, M, L: Move to the top, middle, or bottom line of the screen.
+Ctrl+f: Page down.
+Ctrl+b: Page up.
+G: Move to the end of the file.
+gg: Move to the beginning of the file.
+<line_number>G: Move to a specific line number.
+Saving Changes:
+:w: Save changes.
+:w filename: Save as filename.
+:q: Quit without saving.
+:q!: Quit and discard changes.
+:wq or ZZ: Save changes and quit.
+Other Tasks:
+i: Insert mode.
+x: Delete character under cursor.
+dd: Delete current line.
+yy: Copy current line.
+p: Paste copied or deleted text.
+/pattern: Search for pattern.
+Emacs:
+Navigation:
+Ctrl+p, Ctrl+n: Move up and down.
+Ctrl+f, Ctrl+b: Move forward and backward.
+Ctrl+a: Move to the beginning of the line.
+Ctrl+e: Move to the end of the line.
+Alt+<: Move to the beginning of the buffer.
+Alt+>: Move to the end of the buffer.
+Ctrl+v: Page down.
+Meta+v: Page up.
+Saving Changes:
+Ctrl+x Ctrl+s: Save changes.
+Ctrl+x Ctrl+c: Quit Emacs.
+Other Tasks:
+Ctrl+g: Cancel command.
+Ctrl+k: Delete from cursor to end of line.
+Ctrl+y: Yank (paste) deleted text.
+Ctrl+s: Search forward.
+Ctrl+r: Search backward.
+Nano:
+Navigation:
+Arrow Keys: Navigate up, down, left, and right.
+Ctrl+f: Move forward one character.
+Ctrl+b: Move backward one character.
+Alt+f: Move forward one word.
+Alt+b: Move backward one word.
+Ctrl+a: Move to the beginning of the line.
+Ctrl+e: Move to the end of the line.
+Ctrl+v: Page down.
+Ctrl+y: Page up.
+Alt+\: Move to the first line.
+Alt+/: Move to the last line.
+Saving Changes:
+Ctrl+o: WriteOut (save changes).
+Ctrl+x: Exit (quit).
+Other Tasks:
+Ctrl+k: Cut (delete) text.
+Ctrl+u: Uncut (paste) text.
+Ctrl+_: Go to a specific line number.

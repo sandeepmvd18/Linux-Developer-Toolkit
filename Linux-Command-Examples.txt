@@ -1,0 +1,195 @@
+File System Navigation and Manipulation:
+
+cd: Change directory.
+Example: cd /path/to/directory
+
+pwd: Print working directory.
+Example: pwd
+
+ls: List directory contents.
+Example: ls
+
+mkdir: Make directories.
+Example: mkdir new_directory
+
+rmdir: Remove directories.
+Example: rmdir directory_to_remove
+
+mv: Move or rename files/directories.
+Example: mv file1.txt directory/
+
+cp: Copy files/directories.
+Example: cp file1.txt file2.txt
+
+rm: Remove files/directories.
+Example: rm file.txt
+
+touch: Create an empty file or update timestamp.
+Example: touch new_file.txt
+
+find: Search for files/directories.
+Example: find /path/to/search -name "*.txt"
+
+ln: Create links between files.
+Example: ln -s /path/to/file link_name
+
+Text Processing and Viewing:
+
+cat: Concatenate and display file contents.
+Example: cat file.txt
+
+less: Display file contents one page at a time.
+Example: less large_file.txt
+
+tail: Output the last part of files.
+Example: tail -n 10 file.txt
+
+wc: Count words, lines, and characters in a file.
+Example: wc -l file.txt
+
+grep: Search for patterns in files.
+Example: grep "pattern" file.txt
+
+sort: Sort lines of text files.
+Example: sort file.txt
+
+uniq: Report or omit repeated lines.
+Example: uniq file.txt
+
+diff: Compare files line by line.
+Example: diff file1.txt file2.txt
+
+echo: Display a line of text.
+Example: echo "Hello, World!"
+
+File Compression and Archiving:
+
+gzip: Compress files.
+Example: gzip file.txt
+
+gunzip: Decompress files.
+Example: gunzip file.txt.gz
+
+tar: Tape archive - create and extract archive files.
+Example: tar -cvf archive.tar directory/
+
+File Permissions and Ownership:
+
+chown: Change file owner and group.
+Example: chown user:group file.txt
+
+chmod: Change file mode (permissions).
+Example: chmod 755 file.sh
+
+umask: Set default permissions for new files.
+Example: umask 022
+
+Disk Usage and Monitoring:
+
+du: Estimate file space usage.
+Example: du -sh /path/to/directory
+
+df: Report file system disk space usage.
+Example: df -h
+
+Process Management:
+
+ps: Report a snapshot of the current processes.
+Example: ps aux
+
+top: Display and update sorted information about processes.
+Example: top
+
+kill: Terminate processes by process ID.
+Example: kill 1234
+
+killall: Kill processes by name.
+Example: killall process_name
+
+jobs: List active jobs.
+Example: jobs
+
+bg: Put jobs in the background.
+Example: bg %1
+
+fg: Bring jobs to the foreground.
+Example: fg %1
+
+System Information:
+
+uname: Print system information.
+Example: uname -a
+
+env: Display environment variables.
+Example: env
+
+printenv: Print all or part of environment.
+Example: printenv PATH
+
+File and Directory Information:
+
+basename: Strip directory and suffix from filenames.
+Example: basename /path/to/file.txt
+
+dirname: Strip last component from file name.
+Example: dirname /path/to/file.txt
+
+Text Editors:
+
+vim: Vi IMproved - text editor.
+Example: vim file.txt
+
+emacs: Emacs text editor.
+Example: emacs file.txt
+
+nano: Nano text editor.
+Example: nano file.txt
+
+User and Authentication:
+
+whoami: Print effective username.
+Example: whoami
+
+who: Show who is logged on.
+Example: who
+
+su: Substitute user identity.
+Example: su username
+
+sudo: Execute a command as another user.
+Example: sudo command
+
+passwd: Change user password.
+Example: passwd
+
+Networking:
+
+ping: Send ICMP ECHO_REQUEST to network hosts.
+Example: ping google.com
+
+traceroute: Print the route packets trace to network host.
+Example: traceroute google.com
+
+Miscellaneous Utilities:
+
+clear: Clear the terminal screen.
+Example: clear
+
+history: Display or manipulate command history.
+Example: history
+
+export: Set environment variables.
+Example: export PATH=$PATH:/new/path
+
+crontab: Schedule periodic background tasks.
+Example: crontab -e
+
+type: Display information about command type.
+Example: type ls
+
+which: Locate a command.
+Example: which ls
+
+nohup: Run a command immune to hangups.
+Example: nohup command &
+Example: nohup command &
