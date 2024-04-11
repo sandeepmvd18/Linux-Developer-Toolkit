@@ -407,14 +407,10 @@ sudo is used to execute commands with superuser (root) privileges. It allows aut
 
 #### Example: sudo command
 
-
-## Network and Connectivity
-
-### The Linux ping command
+### The Linux passwd command
 
 #### Description:
-ping is used to test the reachability of a host on a network by sending ICMP echo request packets and waiting for ICMP echo reply packets.
-
+passwd is used to change the password for a user account in Linux.
 #### Example: passwd
 
 
